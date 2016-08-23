@@ -8,17 +8,22 @@
 	background-color: yellow;
 	width: 25%;
 	height: 100px;
-	float: right;
+	float: left;
 }
 .caja2{
 	background-color: blue;
 	width: 25%;
 	height: 100px;
-	float: right;
+	float: left;
 }
 .caja3{
 	background-color: red;
 	width: 25%;
 	height: 100px;
-	float: right;
+	float: left;
+}
+.caja-grande:after{
+	content: "";
+	display: block;
+	clear: both;
 }
